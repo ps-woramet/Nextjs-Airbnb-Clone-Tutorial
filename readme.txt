@@ -41,8 +41,6 @@ trick (usememo, usecallback)
             useCallback(()=>{console.log('hello')}, []) //function ถูกสร้างครั้งแรกครั้งเดียว
             useCallback(()=>{console.log('hello')}, [value]) //ถ้าค่าใน dependencies เปลี่ยนจะสร้าง functionใหม่,ถ้าไม่เปลี่ยนจะไม่สร้าง
 
-
-
 0. install project
 
     > npx create-next-app --typescript

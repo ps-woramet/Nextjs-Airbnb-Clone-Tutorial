@@ -146,7 +146,8 @@ trick (usememo, usecallback)
             )
         }
 
-3. npm install zustand // จัดการ state
+3. แสดงหน้าต่าง เมื่อทำการ register
+    npm install zustand // จัดการ state
     npm install axios
     npm install react-hook-form
     npm install react-hot-toast // แสดง error
